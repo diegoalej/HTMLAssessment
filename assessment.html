@@ -85,5 +85,36 @@
       </ul>
 
     <h2>FORM</h2>
+      <form  action="assessment.html" method="post">
+        <label for="fname">First name:</label>
+        <input type="text" name="fname" placeholder="Enter First Name">
+        <label for="lname">Last name:</label>
+        <input type="text" name="lname" placeholder="Enter Last Name"><br><br>
+        <label for="sport">Favorite Sport:</label><br>
+        <select name="sport">
+          <option value="football">Football</option>
+          <option value="soccer">Soccer</option>
+          <option value="basketball">Basketball</option>
+          <option value="baseball">Baseball</option>
+        </select><br><br>
+        <label >I have: </label>
+        <input type="checkbox" name="attended" value="attended" checked>
+        <label for="attended">Attended</label>
+        <input type="checkbox" name="played" value="played" checked>
+        <label for="played">Played</label>
+        <input type="checkbox"  name="coached" value="coached" checked>
+        <label for="coached">Coached</label>
+        <input type="checkbox"  name="beton" value="beton">
+        <label for="beton">Bet on</label><br><br>
+
+        <label >For this sport I prefer the: </label>
+        <input type="radio" name="amateur" value="amatuer" checked>
+        <label for="amateur">Amateur</label>
+        <input type="radio"  name="college" value="college" >
+        <label for="college">College</label>
+        <input type="radio"  name="professional" value="professional">
+        <label for="professional">Professional</label><br><br>
+        <input type="submit" value="Submit Query">
+      </form>
   </body>
 </html>
