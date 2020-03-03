@@ -98,25 +98,29 @@
           <option value="basketball">Basketball</option>
           <option value="baseball">Baseball</option>
         </select><br><br>
+        <fieldset>
+          <label >I have: </label>
+          <input type="checkbox" name="attended" id="attended" value="attended" checked>
+          <label for="attended">Attended</label>
+          <input type="checkbox" name="played" id="played" value="played" checked>
+          <label for="played">Played</label>
+          <input type="checkbox"  name="coached" id="coached" value="coached" checked>
+          <label for="coached">Coached</label>
+          <input type="checkbox"  name="beton" id="beton" value="beton">
+          <label for="beton">Bet on</label>
+        </fieldset><br>
 
-        <label >I have: </label>
-        <input type="checkbox" name="attended" value="attended" checked>
-        <label for="attended">Attended</label>
-        <input type="checkbox" name="played" value="played" checked>
-        <label for="played">Played</label>
-        <input type="checkbox"  name="coached" value="coached" checked>
-        <label for="coached">Coached</label>
-        <input type="checkbox"  name="beton" value="beton">
-        <label for="beton">Bet on</label><br><br>
-
-        <label >For this sport I prefer the: </label>
-        <input type="radio" name="sportpref" value="amatuer" checked>
-        <label for="amateur">Amateur</label>
-        <input type="radio"  name="sportpref" value="college" >
-        <label for="college">College</label>
-        <input type="radio"  name="sportpref" value="professional">
-        <label for="professional">Professional</label><br><br>
+        <fieldset>
+          <label >For this sport I prefer the: </label>
+          <input type="radio" name="sportpref" id="amat" value="amateur" checked>
+          <label for="amat">Amateur</label>
+          <input type="radio"  name="sportpref" id="coll" value="college" >
+          <label for="coll">College</label>
+          <input type="radio"  name="sportpref" id="prof" value="professional">
+          <label for="prof">Professional</label>
+        </fieldset><br>
         <input type="submit" value="Submit Query">
+
       </form>
   </body>
 </html>
